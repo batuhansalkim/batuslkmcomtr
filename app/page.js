@@ -1,9 +1,17 @@
-import Image from "next/image";
+import Hero from "@/components/Hero";
+import Camp from "@/components/Camp";
+import Features from "@/components/Features";
+import Guide from "@/components/Guide";
+import GetApp from "@/components/GetApp";
 
 export default function Home() {
   return (
-    <div>
-      <h1 className="ttet-bold text-red-500">Hello World Bro </h1>
-    </div>
+    <>
+      <Hero/>
+      <Camp/>
+      <Features/>
+      <Guide/>
+      <GetApp/>
+    </>
   );
 }
