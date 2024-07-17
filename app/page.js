@@ -9,8 +9,8 @@ export default function Home() {
     <>
       <Hero/>
       <Camp/>
-      <Features/>
       <Guide/>
+      <Features/>
       <GetApp/>
     </>
   );
